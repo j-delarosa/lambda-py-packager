@@ -6,8 +6,8 @@ setup(
     install_requires = [
         'boto3 >= 1.9.1'
     ],
-    packages = ['lambda-py-packager'],
+    packages = ['lpp'],
     entry_points = {
-        'console_scripts': ['lpp = packager.handler:main'],
+        'console_scripts': ['lpp = lpp.packager:main'],
     }
 )

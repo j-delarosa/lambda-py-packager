@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "lambda-py-packager",
-    version = "0.1",
+    version = "0.1dev",
     install_requires = [
         'boto3 >= 1.9.1'
     ],
